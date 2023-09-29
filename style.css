@@ -26,11 +26,21 @@ h4{
   font-family: serif;
 }
 
+@keyframes blue {
+  from {top: 0px;}
+  to {top: 15px; background-color: #8FC8F7;}
+}
+
 .header {
   background-color:white;
   border: 1px solid black;
-  padding-left: 20px;
+  padding: 20px;
   margin: 5px;
+  position: relative;
+  animation-name: blue;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .prev {
@@ -38,6 +48,11 @@ h4{
   border: 1px solid black;
   padding: 20px;
   margin: 5px;
+  position: relative;
+  animation-name: blue;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .skills {
@@ -45,20 +60,35 @@ h4{
   border: 1px solid black;
   padding: 20px;
   margin: 5px;
+  position: relative;
+  animation-name: blue;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .ed {
   background-color:#B0D8F8;
   border: 1px solid black;
   padding: 20px;
-  margin: 5px; 
+  margin: 5px;
+  position: relative;
+  animation-name: blue;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .hob {
   background-color:#8FC8F7;
   border: 1px solid black;
+  position: relative;
   padding: 20px;
-  margin: 5px; 
+  margin: 5px;
+  animation-name: blue;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 ul {

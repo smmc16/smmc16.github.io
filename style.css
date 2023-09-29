@@ -12,7 +12,7 @@ h1{
 
 h2 {
   text-align: center;
-  font-family: arial;
+  font-family: arial, helvetica;
   text-transform: uppercase;
   border-bottom: 1px solid black;
 }
@@ -29,31 +29,36 @@ h4{
 .header {
   background-color:white;
   border: 1px solid black;
-  padding-left: 20px
+  padding-left: 20px;
+  margin: 5px;
 }
 
 .prev {
   background-color:#EEF6FD;
   border: 1px solid black;
-  padding: 20px
+  padding: 20px;
+  margin: 5px;
 }
 
 .skills {
   background-color:#D3E9FC;
   border: 1px solid black;
-  padding: 20px
+  padding: 20px;
+  margin: 5px;
 }
 
 .ed {
   background-color:#B0D8F8;
   border: 1px solid black;
-  padding: 20px
+  padding: 20px;
+  margin: 5px; 
 }
 
 .hob {
   background-color:#8FC8F7;
   border: 1px solid black;
-  padding: 20px
+  padding: 20px;
+  margin: 5px; 
 }
 
 ul {

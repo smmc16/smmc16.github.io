@@ -55,6 +55,35 @@ h4{
   animation-direction: alternate;
 }
 
+.qa {
+  background-color: white;
+  padding: 7px;
+  margin: 10px;
+  border-style: outset;
+  
+}
+
+.starb {
+  background-color: white;
+  padding: 7px;
+  margin: 10px;
+  border-style: inset;
+}
+
+.dog {
+  background-color: white;
+  padding: 7px;
+  margin: 10px; 
+  border-style: outset;
+}
+
+.usher {
+  background-color: white;
+  padding: 7px;
+  margin: 10px;
+  border-style: inset;
+}
+
 .skills {
   background-color:#D3E9FC;
   border: 1px solid black;
@@ -77,6 +106,20 @@ h4{
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+}
+
+.arts {
+  background-color: white;
+  padding: 7px;
+  margin: 10px;
+  border-style: outset;
+}
+
+.high {
+  background-color: white;
+  padding: 7px;
+  margin: 10px;
+  border-style: inset;
 }
 
 .hob {

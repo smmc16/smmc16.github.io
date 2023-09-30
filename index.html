@@ -5,13 +5,26 @@
    <meta name="viewport" content="width=device-width">
    <link rel="stylesheet" href="style.css"/>
   </head>
-  
+  <style>
+    
+  </style>
   <body>
    <section class="header">
     <h1>Sarah McCartney</h1>
-      <h3>Minneapolis, MN 55408</h3>
-   </section>
+    <h3>Minneapolis, MN 55408</h3>
   
+     <button onclick="email()" style="font-family:lucida console; background-color:white;">Contact</button>
+     <p id="test"></p>
+     
+     <script>
+         function email(){
+           document.getElementById("test").innerHTML = "smmc16@gmail.com <a href=https://smmc16.github.io/><button >Hide</button></a>"
+         }
+     </script>
+     
+    </section>
+  
+    
  
    <section class="prev">
     <h2>Previous Employment</h2>
